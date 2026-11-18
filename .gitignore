@@ -1,0 +1,9 @@
+node_modules/
+*.jsonl
+x402-*.json
+x402-down
+paid-down
+free-exhausted
+x402-proxy.pid
+*.key
+.env

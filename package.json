@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "viem": "^2.58.0"
+  },
+  "name": "x402-llm-proxy",
+  "version": "0.1.0",
+  "description": "OpenAI-compatible local proxy that pays per LLM call in USDC on Base via x402 (NanoGPT), with fallbacks and a daily cap",
+  "main": "src/proxy.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/proxy.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module"
+}
